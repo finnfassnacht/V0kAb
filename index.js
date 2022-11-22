@@ -9,8 +9,8 @@ function sleep(milliseconds) {
 function getRandomArbitrary() {
     return Math.random() * (5 - 0) + 0;
 }
-s_vokab = ["la cama","el hombre","el padre"]
-ger_vokab = ["the bed","the man", "the father"]
+ask_vokab = ["la cama","el hombre","el padre"]
+test_vokab = ["the bed","the man", "the father"]
 var vokab_num = 0
 var pro_bar_add_xx = s_vokab.length;
 var pro_bar_add_x = (100 / pro_bar_add_xx)
